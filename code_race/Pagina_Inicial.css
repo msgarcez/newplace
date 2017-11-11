@@ -1,0 +1,46 @@
+@CHARSET "ISO-8859-1";
+body{
+	background-image: url("imagens/triatlo.png");
+}
+header#cabecalho{
+}
+h1{
+	text-align: center;
+}
+a{
+	display:inline-block;
+    text-decoration:none;
+    padding:6px 4px;
+    color:#333;
+    font:15px arial, sans-serif;
+    float:right;
+}
+div#interface{
+	width: 1200px;
+}
+
+section#principal{
+	display:block;
+	width: 550px;
+	float:left;
+}
+
+aside#lateral{
+	display:block;
+	width:500px;
+	float:right;
+}
+
+footer{
+	clear:both;
+	text-align: center;
+}
+
+fieldset {
+	
+	width: 50%;
+}
+
+.cor {
+	background-color: red !important;
+}

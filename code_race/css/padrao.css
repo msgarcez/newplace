@@ -1,0 +1,48 @@
+@CHARSET "ISO-8859-1";
+/*Neste arquivo CSS eu padronizo todos os efeito que serão aplicados da mesma maneira nas páginas*/
+
+
+/*Efeitos aplicados no footer (Rodapé)*/
+footer{
+	clear: both;
+	background-color: #Cfd8dc ;
+	color: black;
+	text-align: center;
+}
+
+/*Botão Dropdown começa aqui!*/
+
+nav {
+	padding-left: 75%;
+	margin-left: 0%;
+}
+
+ul li {
+	position: relative;
+	}
+li:hover ul { display: inherit !important;
+ }
+ 
+ li ul {
+	position: absolute;
+	left: 20px;
+	top: 50px;
+	display: none;
+}
+
+nav ul li a{
+font-family: Times New Roman;
+text-align: center;
+font-size: 25px;	
+}
+
+.menu:hover{
+	background-color: white;
+	color: black;
+}
+
+.nav{
+	background-color: black;
+}
+
+/*Termina aqui!*/

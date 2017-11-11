@@ -1,0 +1,34 @@
+@CHARSET "ISO-8859-1";
+/*trabalha com o paralax*/
+.parallax-container {
+      height: "your height here";
+}
+
+div#cabecalho header{
+	/*background-image: url(../imagens/vida&saude.png);*/
+	background-position: 50%;
+	background-repeat: no-repeat;
+ 	width:100% !important;
+ 	height:320px !important;
+ 	overflow: hidden;
+}
+
+nav {
+	position: fixed;
+	z-index: 11;
+	visibility: 100%;
+	padding-left: 38%;
+	margin-left: 0%;
+	padding-right: 23%;
+	margin-right: 0%;
+}
+
+ul li {
+	position: relative;
+	}
+	
+nav ul li a{
+color: Black;
+text-align: center;
+font-size: 18px;	
+}
